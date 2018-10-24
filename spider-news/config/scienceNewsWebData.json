@@ -1,0 +1,36 @@
+[
+  {
+    "url": "http://news.baidu.com/ns?rn=30&ie=utf-8&ct=1&bs=%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85&rsv_bp=1&sr=0&cl=2&f=8&prevct=no&tn=newstitle&word=%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85",
+    "name": "智能家居",
+    "rowSize": 10,
+    "parentSelector": "#content_left div ",
+    "childFind": ".result",
+    "childSelector": "h3 a"
+  },
+  {
+    "url": "http://news.baidu.com/tech",
+    "name": "百度新闻",
+    "rowSize": 10,
+    "parentSelector": ".column,.clearfix .l-middle-col .middle-focus-news .ulist,.fb-list",
+    "childSelector": "a"
+  },
+  {
+    "url": "http://tech.sina.com.cn/",
+    "name": "新浪新闻",
+    "rowSize": 10,
+    "parentSelector": ".tech-mid .tech-news ul",
+    "childSelector": "a"
+  },
+  {
+    "url": "https://new.qq.com/ch/tech/",
+    "name": "腾讯新闻",
+    "rowSize": 10,
+    "parentSelector": "#List .list",
+    "childSelector": "h3 a"
+  },
+  {
+    "url": "https://www.toutiao.com/api/pc/feed/?category=internet&utm_source=toutiao&widen=1&max_behot_time=0&max_behot_time_tmp=0&tadrequire=true&as=A1A54BC68A1C8AB&cp=5B6AAC089AAB8E1&_signature=e3vI9wAAIBK1yqChyeLZ4Xt7yO",
+    "name": "今日头条",
+    "rowSize": 10
+  }
+]
