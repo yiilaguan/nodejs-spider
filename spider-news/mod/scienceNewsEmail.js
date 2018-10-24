@@ -10,7 +10,7 @@ var account = {
     secureConnection: false,
   },
   user: "program_log@163.com",
-  pass: ""
+  pass: process.env.epwd
 };
 
 let transporter = nodeMailer.createTransport(
